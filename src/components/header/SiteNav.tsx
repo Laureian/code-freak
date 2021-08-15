@@ -93,10 +93,7 @@ class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
                   <Link to="/" activeClassName="nav-current">Home</Link>
                 </li>
                 <li role="menuitem">
-                  <Link to="/about" activeClassName="nav-current">About</Link>
-                </li>
-                <li role="menuitem">
-                  <Link to="/tags/getting-started/" activeClassName="nav-current">Getting Started</Link>
+                  <Link to="/about" activeClassName="nav-current">O blogu</Link>
                 </li>
               </ul>
               {isPost && (
@@ -133,7 +130,7 @@ class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
               )}
             </SocialLinks>
             {config.showSubscribe && (
-              <SubscribeButton onClick={this.openModal}>Subscribe</SubscribeButton>
+              <SubscribeButton onClick={this.openModal}>Subskrybuj</SubscribeButton>
             )}
           </SiteNavRight>
         </nav>

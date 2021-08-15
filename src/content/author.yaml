@@ -1,15 +1,8 @@
-- id: Ghost
-  avatar: avatars/ghost.png
-  bio: The professional publishing platform
+- id: Maciej Andrzejczuk
+  avatar: avatars/laureian.jpeg
+  bio: Pasjonat programowania
+  location: Białystok, Poland
   twitter: TryGhost
   facebook: ghost
-  website: https://ghost.org/
-  location: San Francisco
-- id: Another Author
-  avatar: avatars/ghost.png
-  bio: This is another test author with a profile background image
-  twitter: TryGhost
-  facebook: ghost
-  website: https://ghost.org/
-  location: San Francisco
+  website: https://code-freak.pl/
   profile_image: img/alex-knight-326705-unsplash.jpg

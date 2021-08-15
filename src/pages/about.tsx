@@ -37,7 +37,7 @@ const PageTemplate = css`
 const About: React.FC = () => (
   <IndexLayout>
     <Helmet>
-      <title>About</title>
+      <title>O blogu</title>
     </Helmet>
     <Wrapper css={PageTemplate}>
       <header className="site-archive-header no-image" css={[SiteHeader, SiteArchiveHeader]}>
@@ -51,50 +51,45 @@ const About: React.FC = () => (
         <div css={inner}>
           <article className="post page" css={[PostFull, NoImage]}>
             <PostFullHeader className="post-full-header">
-              <PostFullTitle className="post-full-title">About</PostFullTitle>
+              <PostFullTitle className="post-full-title">O blogu</PostFullTitle>
             </PostFullHeader>
 
             <PostFullContent className="post-full-content">
               <div className="post-content">
-                <h5>
-                  A starter template for Gatsby <br /> GitHub: <a href="https://github.com/scttcper/gatsby-casper">scttcper/gatsby-casper</a>
-                </h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo finibus leo,
-                  non tempus magna vehicula ac. Maecenas mollis ante finibus pharetra imperdiet.
-                  Maecenas in aliquam purus. Nam et massa a nulla fermentum dapibus sit amet in
-                  neque. Ut ipsum ipsum, rhoncus a sodales pellentesque, interdum a elit. Nullam
-                  aliquam tellus nibh, eget laoreet dui aliquet non. Vestibulum malesuada ante at
-                  diam tempus, ac interdum risus scelerisque. Sed ipsum neque, vulputate porta diam
-                  eget, consequat blandit nulla. Integer volutpat velit vitae purus lacinia aliquam.
-                  Integer bibendum ipsum vitae magna pulvinar, nec vehicula dolor vulputate. Nulla
-                  eu massa id orci placerat finibus vel sit amet eros. Vestibulum quis consequat
-                  massa. Sed sagittis sollicitudin massa at commodo. Praesent diam nisi, imperdiet
-                  posuere eleifend nec, blandit ac massa.
+                  Siemka! Jestem Maciek Andrzejczuk - obecnie programista full stack. Swoją przygodę
+                  z kodowaniem zacząłem od fascynasji jeszcze w szkole podstawowej polską sceną
+                  phreakerską. Gdzieś w sieci przeczytałem, że żeby zacząć przygodę z phreakingiem
+                  muszę znać się na programowaniu i nie wiele myśląc zacząłem naukę Turbo Pascala. W
+                  międzyczasie ceny usług telekomunikacyjnych spadły na tyle, że phreaking przestał
+                  się opłacać, a dla mnie samo programowanie okazało się ciekawsze niż próby
+                  oszukiwania automatów telefonicznych. W gimnazjum zacząłem naukę c++, a w trakcie
+                  studiów zacząłem pracę jako programista C#. Kilka lat temu zacząłem przesiadkę
+                  na TypeScript, a moja przygoda z programowaniem trwa do dziś.
                 </p>
                 <p>
-                  Vestibulum semper pretium ipsum nec congue. Ut ac eros nisi. Donec leo sem,
-                  aliquam mollis sapien ultrices, dapibus congue diam. Proin viverra dapibus
-                  blandit. Ut mauris tellus, tristique id felis vel, venenatis vestibulum nunc. Nam
-                  molestie pulvinar nibh, eget egestas augue. Maecenas tellus arcu, mattis ut ipsum
-                  non, sollicitudin convallis nunc. Donec nec neque tristique, aliquet lacus id,
-                  laoreet nunc. Cras dapibus nisi nulla, ullamcorper faucibus neque suscipit ac.
-                  Donec eget orci venenatis justo lobortis volutpat. Proin vel placerat nisl.
-                  Integer arcu nunc, sodales eu fringilla non, aliquam non diam. Cras placerat,
-                  massa et faucibus pretium, ante elit tincidunt tellus, tristique ultricies velit
-                  quam et massa.
+                  Witam Cię na blogu którego tematyka poświęcona jest programowaniu. Ze względu na
+                  moje zainteresowania znajdziesz tutaj artykuły o technologiach takich jak
+                  JavaScript, TypeScript, Node.js, PostgreSQL czy Git. Oprócz tematów stricte
+                  technicznych postaram się również skupić na rozwiązywaniu powszechnych problemów
+                  za pomocą wzorców projektowych czy stosowaniu odpowiedniej architektury. Plany mam
+                  ambitne, mam też jednak świadomość, że ciężko mi będzie przy natłoku pracy skupić
+                  się zarówno na pracy zawodowej jak i na prowadzeniu bloga w związku z tym na
+                  początek chciałbym w sobie wyrobić nawyk wrzucania nowych materiałów co dwa
+                  tygodnie.
                 </p>
                 <p>
-                  In nunc lacus, dapibus vitae lacus sit amet, efficitur iaculis neque. Suspendisse
-                  ut tellus quis leo vestibulum tincidunt. Aenean nec enim ac dolor lacinia semper.
-                  Ut sed laoreet libero. Nunc elementum sollicitudin accumsan. Nunc eu augue neque.
-                  Proin a tortor nibh. Cras eu nisl ornare sapien feugiat pellentesque. Mauris
-                  dignissim vel quam eu pellentesque. Integer sit amet posuere quam, eu ullamcorper
-                  odio. Nullam a lacus tempus sapien dignissim ullamcorper. In hac habitasse platea
-                  dictumst. Proin quis massa aliquam, feugiat tortor sit amet, tincidunt urna. Donec
-                  posuere pulvinar lectus, ac semper ipsum vulputate quis.
+                  No dobrze spytasz więc czym ten blog różnił się będzie od innych których w sieci
+                  znaleźć można wiele? Ciężko w dzisiejszych czasach tworzyć treści wyjątkowe. Nie
+                  znaczy to jednak, że nie da się tworzyć treści wartościowych. Na tym zamierzam
+                  oprzeć idee tego bloga. Nie chcę od pierwszego dnia prowadzenia strony na siłę się
+                  wyróżniać, wolę dbać o to, żeby wpisy treści były jak najlepiej i rzetelniej
+                  przygotowane. Mam również nadzieję, że z czasem moje artykuły będą coraz ciekawsze
+                  i będę przyciągały większą rzeszę czytelników. Podobno najtrudniejszy jest
+                  pierwszy krok...
                 </p>
               </div>
+              <div className="footnotes">Zapraszam!</div>
             </PostFullContent>
           </article>
         </div>
