@@ -320,7 +320,7 @@ const PostFullTags = styled.section`
   text-transform: uppercase;
 `;
 
-const PostFullCustomExcerpt = styled.p`
+export const PostFullCustomExcerpt = styled.p`
   margin: 20px 0 0;
   color: var(--midgrey);
   font-family: Georgia, serif;
